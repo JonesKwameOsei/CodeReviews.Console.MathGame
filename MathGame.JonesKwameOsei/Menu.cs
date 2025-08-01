@@ -75,7 +75,6 @@ public class Menu
   private void DisplayMenuOption(string number, string letter, string operation, string icon, ConsoleColor color)
   {
     Console.ForegroundColor = ConsoleColor.White;
-    // Console.Write("  ");
     Console.WriteLine();
     Console.ForegroundColor = color;
     Console.WriteLine($"{number}. [{letter}]");

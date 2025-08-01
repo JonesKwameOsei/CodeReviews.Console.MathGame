@@ -123,42 +123,6 @@ public class GameEngine
     Console.ResetColor();
   }
 
-  // private (int, int, int) GenerateQuestion(char operation)
-  // {
-  //   int num1, num2, answer;
-
-  //   switch (operation)
-  //   {
-  //     case '+':
-  //       num1 = random.Next(1, 101);
-  //       num2 = random.Next(1, 101);
-  //       answer = num1 + num2;
-  //       break;
-
-  //     case '-':
-  //       num1 = random.Next(1, 101);
-  //       num2 = random.Next(1, num1 + 1); // prevent negative results
-  //       answer = num1 - num2;
-  //       break;
-
-  //     case '*':
-  //       num1 = random.Next(1, 13);
-  //       num2 = random.Next(1, 13);
-  //       answer = num1 * num2;
-  //       break;
-
-  //     case '/':
-  //       answer = random.Next(1, 11);
-  //       num2 = random.Next(1, 11);
-  //       num1 = answer * num2;
-  //       break;
-  //     default:
-  //       throw new ArgumentException("Invalid operation");
-  //   }
-
-  //   return (num1, num2, answer);
-  // }
-
   private void ShowGameSummary(GameSession session)
   {
     Console.ForegroundColor = session.ThemeColor;
